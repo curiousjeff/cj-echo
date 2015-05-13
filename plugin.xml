@@ -7,7 +7,7 @@
   <description>A plugin that echo's back the string that was sent</description>
 
   <engines>
-    <engine name="cordova" version=">=3.3.0" />
+    <engine name="cordova" version=">=3.6.0" />
   </engines>
 
   <name>cordova-ext-echo</name>

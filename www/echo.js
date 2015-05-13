@@ -1,5 +1,10 @@
+var exec = cordova.require('cordova.exec');
 
-window.echo = function(str, successCallback) {
+var Echo = function(){
+
+};
+
+Echo.echo = function(str, successCallback) {
   exec(successCallback, 
        function(err) {
          successCallback('Nothing to echo.');
@@ -8,3 +13,5 @@ window.echo = function(str, successCallback) {
         "echo", 
         [str]);
 };
+
+module.exports = Echo;
